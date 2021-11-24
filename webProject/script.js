@@ -1,16 +1,4 @@
-$('.reviews').owlCarousel({
-    loop:true,
-    items:1,
-    smartSpeed:700,
-    nav:false,
-});
-
-$(document).ready(function(){
-    $('#owl-carousel-1').owlCarousel();
-  });
-
-
-  "use strict"
+"use strict"
 var $popOverlay = $(".popup-overlay");
 var $popWindow = $(".popWindow");
 var $popupMainWindow = $(".popup-main-window");
