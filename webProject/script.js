@@ -101,3 +101,55 @@ $(document).ready(function(){
     ]
   });
 });
+
+
+
+
+$(document).ready(function(){
+  $('.slider1').slick({
+    arrows: false,
+    dots:false,
+    adaptiveHeight: true,
+    slidesToShow: 4,
+    slidesToScroll:2,
+    speed:800,
+    easing:'ease',
+    draggable:false,
+    waitForAnimate:true,
+    autoplay: true,
+    responsive:[
+      {
+        breakpoint:760,
+        settings:{
+          slidesToShow:2,
+          slidesToScroll:2,
+        }
+      }
+    ]
+  });
+});
+
+
+$(document).ready(function(){
+  $('.slider2').slick({
+    arrows: false,
+    dots:false,
+    adaptiveHeight: true,
+    slidesToShow: 4,
+    slidesToScroll:3,
+    speed:800,
+    easing:'ease',
+    draggable:false,
+    waitForAnimate:true,
+    autoplay: true,
+    responsive:[
+      {
+        breakpoint:760,
+        settings:{
+          slidesToShow:2,
+          slidesToScroll:2,
+        }
+      }
+    ]
+  });
+});
