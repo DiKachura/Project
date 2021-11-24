@@ -386,7 +386,6 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
 
 .tariff{
     background-color: #fff;
-    height: 300px;
     border-radius: 10px;
 }
 
@@ -397,13 +396,12 @@ transform: translate(-50%, 0);
 }
 
 
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  
+
   .topmenu > li {
 
     width: 25%;
@@ -414,8 +412,8 @@ nav ul {
     padding-left: 15px;
     margin-left: 24px;
     margin-top: 39px;
-    
-   
+
+
   }/*важно*/
   .topmenu > li > a {
     text-transform: uppercase;
@@ -442,7 +440,7 @@ nav ul {
     transition: .5s ease-in-out;
     text-align: center;
   } /*важная штука*/
-  
+
   .submenu a {
     color: white;
     text-align: center;
@@ -450,7 +448,7 @@ nav ul {
     font-size: 13px;
     line-height: 30px;
     border-bottom: 1px solid rgba(255,255,255,.1);
-  }    
+  }
   /*Цвет и шрифт выползающего текста*/
 
   .topmenu > li:hover .submenu {
@@ -458,3 +456,175 @@ nav ul {
     transform: scaleY(1);
   }
 
+
+  .text-center{
+      text-align: center;
+  }
+
+  .reviews{
+      text-align: center;   
+  }
+  .owl-dots{
+      width: 100%;
+      text-align: center;
+      margin-top: 60px;
+  }
+  .owl-item{
+      /* width: 8px;
+      height: 8px; */
+      background-color: white;
+      display: inline-block;
+      margin: 7px;
+  }
+  .owl-dot{
+      width: 8px;
+      height: 8px;
+      background-color: black;
+      display: inline-block;
+      margin: 7px;
+  }
+
+
+
+  
+.form-text{
+    margin-top: 15px;
+}
+.popup-submit{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 rgb(39, 61, 42);
+    transition: background-color 0.5s ease 0s; 
+    background-color: #f14d34;
+    margin-top: 10px;
+}
+.popup-overlay{
+	/* display: none; */
+	/* position: fixed; */
+	/* left: 0; */
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #050C33;
+	z-index: 100;
+    width: 100%;
+	}
+	.popWindow{
+	/* display: none; */
+	margin: auto;
+	/* max-width: 720px; */
+
+	padding-bottom: 20px;
+	margin-top: 0%;
+    margin-left: 100%;
+	
+	box-shadow: 0 0 30px rgba(70, 47, 46, 0.788);
+	/* background-color: #FFEBCD; */
+    border-radius: 5px;
+	}
+    .popLeft{
+        margin: auto;
+	/* max-width: 720px; */
+    
+	padding-bottom: 20px;
+	margin-top: 40%;
+    margin-left: 0%;
+    }
+	.popWindow h2{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	z-index: 10;
+	position: relative;
+	}
+	.close-btn{
+	float:right;
+	font-size: 30px;
+	line-height: 20px;
+	cursor: pointer;
+	color: rgb(34, 34, 34);
+	padding: 10px;
+	}
+	
+@media screen and (min-width: 700px) and (orientation: landscape) {
+    .osn{
+     width: 50%; 
+     margin: auto;
+    }
+    .btnf{
+        padding-left: 120px;
+    }
+    .form_button{
+        width: 70%;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+ 
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.slider{
+    margin-top: 20px;
+    position: relative;
+    padding: 0px 60px;
+}
+.slider .slick-arrow{
+   position: absolute;
+   top: 50%; 
+   margin: -30px 0px 0px 0px;
+   z-index: 10;
+   font-size: 0;
+   width: 30px;
+   height: 60px;
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url('https://images-ext-2.discordapp.net/external/vmWsyYP00nzvyL_dZrypWlYq_KsEIvSk7bnQCSjguUE/%3Fsize%3D760x1501%26quality%3D96%26sign%3D0b7c2156e55c21f8fd975b03031ee9f1%26type%3Dalbum/https/sun2-12.userapi.com/impg/v0YeSWLf3vUSWQi0swTWXKBHQm7Oq4BZ9XbhcQ/hrabPa6ISS4.jpg?width=266&height=526') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612480561_144-p-strelka-na-serom-fone-186.png') 0 0 / 100% no-repeat;
+}
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.review{
+    background-image: url(img/отзывы.jpg);
+}
