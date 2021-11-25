@@ -628,3 +628,9 @@ nav ul {
 .review{
     background-image: url(img/отзывы.jpg);
 }
+
+
+.slimg{
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 10px;
+}
