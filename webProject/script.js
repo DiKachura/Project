@@ -110,9 +110,9 @@ $(document).ready(function(){
     arrows: false,
     dots:false,
     adaptiveHeight: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll:2,
-    speed:800,
+    speed:1000,
     easing:'ease',
     draggable:false,
     waitForAnimate:true,
@@ -122,7 +122,7 @@ $(document).ready(function(){
         breakpoint:760,
         settings:{
           slidesToShow:2,
-          slidesToScroll:2,
+          slidesToScroll:1,
         }
       }
     ]
@@ -135,7 +135,7 @@ $(document).ready(function(){
     arrows: false,
     dots:false,
     adaptiveHeight: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll:3,
     speed:800,
     easing:'ease',
@@ -147,7 +147,7 @@ $(document).ready(function(){
         breakpoint:760,
         settings:{
           slidesToShow:2,
-          slidesToScroll:2,
+          slidesToScroll:1,
         }
       }
     ]
